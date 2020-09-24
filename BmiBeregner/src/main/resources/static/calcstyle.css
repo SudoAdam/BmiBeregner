@@ -40,5 +40,6 @@ form [type=Submit] {
 }
 
 img {
-    width: 200px;
+    height: 55%;
+    width: 300px;
 }
