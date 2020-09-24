@@ -1,10 +1,7 @@
-#container {
-    align-content: center;
-    margin: auto;
+body {
     padding: 100px;
-
+    font-family: Verdana, Arial, sans-serif;
 }
-
 
 #content {
     margin: auto;
@@ -20,12 +17,21 @@
     float: left;
 }
 
-form {
-    text-align: center;
+#fields {
     float: right;
+
 }
 
-input {
-    height: 30px;
+form [type=text] {
     width: 30px;
+    height: 30px;
 }
+form [type=Submit] {
+    width: 100%;
+    height: 30px;
+}
+#button {
+    clear: both;
+    margin: auto;
+}
+
