@@ -39,3 +39,6 @@ form [type=Submit] {
     margin: auto;
 }
 
+img {
+    width: 200px;
+}
