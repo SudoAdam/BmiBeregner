@@ -1,0 +1,31 @@
+#container {
+    align-content: center;
+    margin: auto;
+    padding: 100px;
+
+}
+
+
+#content {
+    margin: auto;
+    padding: 30px;
+    align-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: #EDE6DB;
+}
+
+#parameters {
+    font-size: 130%;
+    float: left;
+}
+
+form {
+    text-align: center;
+    float: right;
+}
+
+input {
+    height: 30px;
+    width: 30px;
+}

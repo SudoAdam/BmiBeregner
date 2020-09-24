@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Beregnings side</title>
+    <link rel="stylesheet" type="text/css" href="calcstyle.css"/>
 </head>
 <body>
-<form action="/calc" method=post>
-  vægt   <input type="text" name="num1">
-  højde  <input type="text" name="num2">
-    <input type="Submit" value="OK!">
+<div id="container">
+    <div id="content">
+        <div id="parameters">
+            Vægt i kg:
+            <p>Højde i cm:</p>
+        </div>
+    <form action="/calc" method=post>
+        <input type="text" name="num1">
+        <p><input type="text" name="num2"></p>
+        <p><input type="Submit" value="  OK!  "></p>
 </form>
+    </div>
+    </div>
 </body>
 </html>
