@@ -3,6 +3,10 @@ body {
     font-family: Verdana, Arial, sans-serif;
 }
 
+a {
+    color: cornflowerblue;
+}
+
 #content {
     margin: auto;
     padding: 30px;
