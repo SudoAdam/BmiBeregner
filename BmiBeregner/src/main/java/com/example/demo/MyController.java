@@ -22,8 +22,7 @@ public class MyController {
     @PostMapping("/calc")
     public String calc (@RequestParam int num1, @RequestParam double num2, Model model ){
         Services services = new Services();
-       double num3 = num1 / (num2 * num2);
-       num3 = (Math.round(num3*100.0))/100.0;
+     double num3 = services.bmiBeregner2(num1,num2);
        model.addAttribute("calc",num3);
         return "result";
     }

@@ -24,4 +24,9 @@ public class Services {
         }
         return bmi;
     }
+    public double bmiBeregner2(int vægt,double højde){
+        double result = vægt / (højde * højde);
+        result = (Math.round(result*100.0))/100.0;
+        return result;
+    }
 }
